@@ -32,9 +32,9 @@ placeholder="Enter Game Name" required>
 placeholder="Enter Genre of the game" name="gamegenre">
 </div>
 <div class="form-group">
-<label for="gamelike">Game Like:</label>
-<input type="text" class="form-control" id="gamelike"
-placeholder="Enter your choice" name="gamelike">
+<label for="gamerelease">Release Date:</label>
+<input type="text" class="form-control" id="gamerelease"
+placeholder="Enter Release Date" name="gamelike">
 </div>
 <input type="button" class="btn btn-primary" id="GameSave" value="Save"
 onclick="saveGame();">
@@ -55,16 +55,16 @@ alert("Genre not entered");
 $("#gamegenre").focus();
 return "";
 }
-var gamelikeVar = $("#gamelike").val();
-if (gamelikeVar === "") {
-alert("Choice not entered");
-$("#gamelike").focus();
+var gamereleaseVar = $("#gamerelease").val();
+if (gamereleaseVar === "") {
+alert("Release Date not entered");
+$("#gamerelease").focus();
 return "";
 }
 var jsonStrObj = {
 gamename: gamenameVar,
 gamegenre: gamegenreVar,
-gamelike: gamelikeVar
+gamerelease: gamereleaseVar
 };
 return JSON.stringify(jsonStrObj);
 }
@@ -99,7 +99,7 @@ return jsonObj;
 function resetForm() {
 $("#gamename").val("");
 $("#gamegenre").val("");
-$("#gamelike").val("");
+$("#gamerelease").val("");
 $("#gamename").focus();
 }
 function saveGame() {
@@ -108,7 +108,7 @@ if (jsonStr === "") {
 return;
 }
 var putReqStr = createPUTRequest("90939357|-31949287514643522|90939605",
-jsonStr, "Video Games", "Direct");
+jsonStr, "PC Games", "Info");
 alert(putReqStr);
 jQuery.ajaxSetup({async: false});
 var resultObj = executeCommand(putReqStr,
