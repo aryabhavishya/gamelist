@@ -1,25 +1,33 @@
-#                                                                               ***Title*** -  Saving Game Records with User Choice
-## ***Description*** - My project is a simple program that uses the powers of JSON PowerDB to create a record in a database.In this we simply take the game name and game type along with the likes to determine that how we can rate the game according to users.Suppose if a game gains 7 "Yes" and 3 "No's" then we can keep that game apart and we can rate that game a bit higher so that If anyone is searching for that specific game then he/she can see the rating and then he can decide that whether he/she wants to play it or not. I have used HTML5/JS along with JSON PowerDB 
+#                                                                               ***Title*** - 
+## Saving Game Information
+# ***Description*** - 
+## My project is a simple program that uses the powers of JSON PowerDB to create a record in a database.In this we simply take the game with all of it's information like name,genre (shooting,action,adventure etc) and it's release date to save it in our database so that we can fetch particular information about that game whenever we want this will help us to understand what we like and what game should we buy for playing. I have used netbeans with HTML5/JS combined with JSON  PowerDB. JSON PowerDB is a very flexible and easy to use database
 
-## ***Benefits of using JsonPowerDB*** - There are many benefits however some of them are:-
-##                                    1) It is schema free
-##                                    2) It is simple to use and nimble
-##                                    3) It is a Real Time DBMS
-##                                    4) It is a multi mode DBMS
-##                                    5) It has multiple security layers
-##                                    6) It is server side native SQL
+# ***Brief Introduction About JSON PowerDB*** -
+## JsonPowerDB is a Database Server with Developer friendly REST API services. It's a High Performance, Light Weight, Ajax Enabled, Serverless, Simple to Use, Real-time Database. Easy and fast to develop database applications without using any server side programming / scripting or without installing any kind of database. Whether it's a Dynamic Website or a Mobile App or some Data Analytics Portal, the development is real fun and fast. Nothing better than trying it yourself. What all you need is a basic understanding of HTML, CSS, Bootstrap, and Javascript.
 
-## ***Release History*** - My code was published on github on 26 June 2022
+# ***Benefits of using JsonPowerDB*** - 
+- It is schema free 
+- It is simple to use and nimble
+- It is a Real Time DBMS
+- It is a multi mode DBMS
+- It has multiple security layers
+- It is server side native SQL
+
+# ***Release History*** - 
+## My code was published on github on 26 June 2022
 
 ## A quick look at my project this is the database where the information got stored
 
-
-![Capture](https://user-images.githubusercontent.com/107908652/175812379-9b9218c7-42d2-4745-930d-d8d20d9e4e57.PNG)
-
-
-## And this is the html page where information is asked from user
+![Capture1](https://user-images.githubusercontent.com/107908652/175867801-87183aef-68f2-4a43-9e10-76d228a68919.PNG)
 
 
 
 
-![Capture1](https://user-images.githubusercontent.com/107908652/175812460-f71e89a9-49bb-4fcd-ac5e-fa7af402209f.PNG)
+## And this is the html page where information is asked
+
+![Capture](https://user-images.githubusercontent.com/107908652/175867818-ef79475b-032e-40b7-9045-a62f893d8381.PNG)
+
+
+
+
